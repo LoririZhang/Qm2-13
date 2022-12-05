@@ -9,10 +9,12 @@ import matplotlib
 %matplotlib inline
 import random
 import matplotlib.pyplot as plt
+
 # make the plots a little wider by default
 %matplotlib inline
 plt.style.use('ggplot')
 pylab.rcParams['figure.figsize'] = (10., 8.)
+
 
 opinion = pandas.read_csv('opinion_data.csv')
 opinion.head()
